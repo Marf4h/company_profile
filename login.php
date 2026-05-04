@@ -41,9 +41,9 @@
 
             if($row['level'] == 'admin'){
             echo "<script>alert('Success')</script>";
-             echo '<script type="text/javascript">window.location="user/dashboard_user.php"</script>';
+             echo '<script type="text/javascript">window.location="admin/dashboard.php"</script>';
 
-             }elseif($row['level'] == 'admin'){
+             }elseif($row['level'] == 'pelanggan'){
             echo "<script>alert('Success')</script>";
              echo '<script type="text/javascript">window.location="user/dashboard_user.php"</script';
 

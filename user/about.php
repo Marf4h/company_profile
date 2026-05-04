@@ -9,7 +9,7 @@ $a = mysqli_fetch_object($kontak);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+    <title>About Us</title>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../css/style.css">
 </head>
@@ -28,9 +28,12 @@ $a = mysqli_fetch_object($kontak);
 
     <div class="section">
         <div class="container">
-            <h3>Dashboard</h3>
+            <h3>About Us</h3>
             <div class="box">
-                <h4>Welcome to our Company <?php echo $user_row["admin_name"] ?></h4>
+                <h4>Perjalanan Awal Toko Ini</h4> <br>
+                <img src="../img/Alhamdulillah.jpg" height="200px" width="200px" alt="">
+                <p>Berikut Diatas adalah Foto CEO kami saat Company Kita Selamat dari Net Minus dengan menjual nar- ... Bubuk Teh kami yang Booming.</p>
+                <p>Crimson Brew dimulai dari sebuah passion sederhana untuk menyajikan Bubuk Teh berkualitas premium kepada masyarakat. Dengan dedikasi dan kerja keras, kami terus berkembang menjadi pilihan utama pecinta Bubuk Teh di Indonesia.</p>
             </div>
         </div>
     </div>

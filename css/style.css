@@ -4,8 +4,18 @@
     font-family: 'Quicksand', sans-serif;
 }
 
+html, body {
+    height: 100%;
+}
+
 body {
     background-color: #F79292;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    flex: 1;
 }
 
 a {
