@@ -11,6 +11,22 @@ include ('session.php');
     <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+
+        </div>
+    </header>
+
+    <div class="section">
+        <div class="container">
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+
+        </div>
+    </footer>
 </body>
 </html>
