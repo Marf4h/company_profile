@@ -18,9 +18,11 @@
             <div class="container">
                 <h1><a href="index.php">Crimson Brew</a></h1>
                 <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Testimony</a></li>
                     <li><a href="login.php">Login</a></li>
-                    <li><a href="register.php">Register</a></li>
-                    <li><a href="#">Our Product</a></li>
                 </ul>
             </div>
         </header>
@@ -34,11 +36,11 @@
             </div>
 
         </div>
-        <div class="search">
+        <!-- <div class="search">
             <div class="container">
                 <p>Silahkan login untuk berbelanja</p> <a href="login.php"><b>Click Here To Login</b></a>
             </div>
-        </div>
+        </div> -->
 
         <div class="section">
             <div class="container">
